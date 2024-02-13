@@ -63,6 +63,7 @@ h1 {
   /* transform: rotate(25deg); */
   position: absolute;
   z-index: 1;
+  margin: 10px;
 }
 #iphone7 {
   width: 15%;
@@ -138,12 +139,6 @@ h1 {
   border-radius: 100%;
   margin: 20px;
 }
-
-
-
-
-
-/* add on                     */
 @keyframes levitate {
   0% {
     transform: translateY(0);
@@ -161,6 +156,8 @@ h1 {
 }
 
 
+
+  
 em{
   font-weight: bold;
 }
@@ -168,8 +165,10 @@ em{
 #features {
   position: relative;
   z-index: 2; /* Update the z-index to be higher than the "iphone6" image */
-  background-color: rgb(221, 11, 11);
+  /* background-color: rgb(221, 11, 11); */
   padding: 80px;
+  /* background-color: #332f2f; */
+  background-image: radial-gradient( #332f2f, rgb(0, 0, 0))
 
 }
 
@@ -274,7 +273,8 @@ padding: 40px;
 text-align: center;
 padding: 10px;
 margin:auto;
-background-color:  rgb(221, 11, 11);
+background-image: radial-gradient( #332f2f, rgb(0, 0, 0))
+
 }
 
 .ficon{
@@ -335,11 +335,30 @@ font-weight: 500;
 }
 
 
-    /* Default styles */
 
-/* Your existing CSS here */
 
-/* Media query for tablets */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 500px) and (max-width: 767px) {
   body {
     text-align: center;
