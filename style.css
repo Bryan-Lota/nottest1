@@ -1,0 +1,329 @@
+body, .tpm {
+  margin: 0;
+}
+
+#bigboys{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 900;
+  color: #fff;
+}
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#title {
+  background-color: #ffce0f;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.55;
+  font-weight: 900;
+  color: #fff;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}  
+.navbar-brand{
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link {
+
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+#iphone6 {
+  width: 30%;
+  /* transform: rotate(25deg); */
+  position: absolute;
+  z-index: 1;
+}
+#iphone7 {
+  width: 15%;
+  /* transform: rotate(25deg); */
+  position: absolute;
+  z-index: 1;
+  margin: auto auto;
+}
+
+
+.title-block{
+  padding-bottom: 100px;
+}
+
+.boxy{
+  padding: 20px;
+  text-align: center;
+}
+
+#special {
+}
+
+#special > * {
+  white-space: nowrap;
+}
+
+
+.sub{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.sub-text {
+  font-family: sans-serif;
+  font-weight: 500; /* Adjust the font weight value as per your preference */
+  color: #8f8f8f;
+}
+
+.sub-image{
+  font-size: 5rem;
+  margin: 30px;
+  color: #ef8172;
+}
+
+.sub-image:hover{
+  color: #ff4c68;
+}
+
+.centre{
+  text-align: center;
+  margin: auto ;
+}
+
+#testimonials{
+  background-color: #ef8172; 
+  text-align: center;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+.testimonial-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+#dog{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+@keyframes levitate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust the distance as needed */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.tap-animation {
+  animation: levitate 2s infinite; /* Adjust the duration as needed */
+}
+
+
+em{
+  font-weight: bold;
+}
+
+#features {
+  position: relative;
+  z-index: 2; /* Update the z-index to be higher than the "iphone6" image */
+  background-color: rgb(221, 11, 11);
+  padding: 80px;
+
+}
+
+#press{
+text-align: center;
+background-color: #ef8172;
+padding-bottom: 3%;
+}
+
+.press-img{
+width: 10%;
+padding: 10px 0;
+margin-right: 20px;
+}
+
+#plan{
+font-weight: bold;
+}
+
+#pricing{
+text-align: center;
+padding: 7% 15%;
+}
+
+#sub-plan{
+font-weight: 500;
+color: #242222d3;
+font-family: sans-serif;
+
+}
+
+.plant{
+margin: 50px auto 20px auto;
+display: inline-block;
+}
+.card {
+  margin: 10px;
+}
+
+.card-header{
+}
+
+.card-header>h3{
+  font-weight: bold;
+
+}
+
+.card-body>h2{
+  font-weight: bold;
+}
+
+.card-body>p{
+  font-family: sans-serif;
+  color: #242222d3;
+
+}
+.plug {
+  background-color: #000;
+  color: #fff;
+  width: 95%;
+  
+}
+
+.plug:hover {
+  color: #343a40;
+  border-color: #343a40;
+  background-color: white;
+  width: 95%;
+}
+
+
+@media (max-width: 992px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+
+#cta{
+background-color: #ffce0f;
+text-align: center;
+align-items: center;
+padding: 15px 0px 25px 0px ;
+}
+
+#cta-h3{
+color: white;
+font-size: 2.5rem;
+margin-top: 35px;
+font-weight: bold;
+
+}
+
+.sub-cta{
+padding: 40px;
+}
+#specific-button{
+
+}
+
+#footer{
+text-align: center;
+padding: 10px;
+margin:auto;
+background-color:  rgb(221, 11, 11);
+}
+
+.ficon{
+margin: 50px 25px 50px 25px ;
+color: black;
+}
+.ficon:hover{
+  color: #ffce0f;
+}
+
+#last-text{
+  font-family: sans-serif;
+color: #8f8f8f;
+font-weight: 500;
+}
+
+.last{
+  margin: 50px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Media query for tablets */
+@media only screen and (min-width: 500px) and (max-width: 1023px) {
+  #iphone6{
+    position: static;
+    transform: rotate(0);
+  }
+  body{
+    text-align: center;
+  }
+  .nav-link{
+    font-weight: 700;
+  }
+}
+
+.object {
+  width: 100px;
+  height: 50px;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.object:hover {
+  background-color: #2980b9;
+}
+
+.tap-animation {
+  transform: scale(0.95);
+}
