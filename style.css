@@ -15,7 +15,7 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 #title {
-  background-color: #ffce0f;
+  background-color: #ADD8E6;
 }
 
 .ml-auto {
@@ -248,7 +248,7 @@ display: inline-block;
 
 
 #cta{
-background-color: #ffce0f;
+background-color: #ADD8E6;
 text-align: center;
 align-items: center;
 padding: 15px 0px 25px 0px ;
@@ -282,7 +282,7 @@ margin: 50px 25px 50px 25px ;
 color: black;
 }
 .ficon:hover{
-  color: #ffce0f;
+  color: #ADD8E6;
 }
 
 #last-text{
@@ -447,5 +447,4 @@ font-weight: 500;
     padding: 10px;
   }
 }
-
 
